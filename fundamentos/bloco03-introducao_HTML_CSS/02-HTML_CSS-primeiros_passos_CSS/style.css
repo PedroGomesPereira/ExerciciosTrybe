@@ -1,0 +1,40 @@
+body
+{
+    font-size: 16px;
+}
+h1
+{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+p
+{
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 60px;
+}
+ul
+{
+    background-color: lightsalmon;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.fundo
+{
+    background-color: lightsteelblue;
+}
+#amarelo
+{
+    background-color: #ecd02f;
+}
+#vermelho 
+{
+    background-color: #ec2f2f;
+}
+#marrom
+{
+    background-color: #5e1010;
+    color: whitesmoke;
+}
