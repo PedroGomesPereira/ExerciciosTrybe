@@ -1,0 +1,44 @@
+ol {
+    background-color: rgb(247, 247, 133);
+}
+ol .par {
+    background-color: rgb(93, 231, 93);
+}
+ol .impar {
+    text-transform: uppercase;
+}
+h1, h3 {
+    color: red;
+}
+h1 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: bold;
+}
+ul li.ordem {
+    color: blue;
+}
+ul li.java {
+    background-color: pink;
+}
+ul li a:hover {
+    font-weight: bold;
+}
+ul li a.verde:hover {
+    background-color: green;
+}
+ul li a.amarelo:hover {
+    background-color: yellow;
+}
+ul li a.preto:hover {
+    background-color: black;
+    color: white;
+}
+ul li a.laranja:hover {
+    background-color: orange;
+}
