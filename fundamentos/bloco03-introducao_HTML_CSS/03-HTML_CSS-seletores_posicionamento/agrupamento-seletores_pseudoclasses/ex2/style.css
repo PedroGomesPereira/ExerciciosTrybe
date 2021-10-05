@@ -1,0 +1,6 @@
+div:hover {
+    border: 5px solid black;
+}
+h3 {
+    text-decoration: unset;
+}

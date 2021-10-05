@@ -1,0 +1,11 @@
+h1, p, li {
+    text-align: center;
+    list-style: none;
+    font-family: sans-serif;
+}
+ol li:hover {
+    background-color: #dbdbdb;
+}
+ol li:active {
+    font-family: 'times new roman';
+}
