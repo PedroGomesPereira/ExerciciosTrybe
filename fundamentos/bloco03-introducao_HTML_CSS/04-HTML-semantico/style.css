@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #384060;
+}
+nav {
+    text-align: end;
+    background-color: #1d2547;
+    font-family: sans-serif;
+    padding: 30px;
+}
+nav img {
+    filter: invert();
+    background-color: #e2dab8;
+    border-radius: 40%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: -45px;
+    transform: rotate(30deg);
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 100px;
+}
+h1 {
+    text-align: right;
+    margin-top: 25px;
+    padding: 20px;
+    font-family: sans-serif;
+}
