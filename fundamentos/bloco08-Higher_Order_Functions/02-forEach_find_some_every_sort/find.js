@@ -20,7 +20,7 @@ const musicas = [
 ]
 
 function findMusic(id) {
-    musicas.find((numero) => numero === id);
+    return musicas.find((number)=> number.id === id);
 }
 
 console.log(findMusic('31031685'))
