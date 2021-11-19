@@ -61,4 +61,12 @@ const books = [
     },
 ];
 
-  // Adicione o código do exercício aqui:
+const expectedResult = 'O Senhor dos Anéis';
+
+function authorWith3DotsOnName() {
+    const nome = books.filter((livros) => (
+    livros.author.name.includes('J. R. R.'))).map((livros) => `${livros.name}`);
+    return nome.sort();
+}
+
+console.log(authorWith3DotsOnName());
