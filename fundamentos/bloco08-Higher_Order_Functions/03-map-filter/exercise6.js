@@ -61,4 +61,16 @@ const books = [
     },
 ];
 
-  // Adicione o código do exercício aqui:
+const expectedResult = [
+    'O Senhor dos Anéis',
+    'Fundação',
+    'O Chamado de Cthulhu',
+];
+
+function oldBooks() {
+    const nomes = books.filter((livros) => (
+    2021 - livros.releaseYear >= 60)).map((livros) => `${livros.name}`);
+    return nomes.sort();
+}
+
+console.log(oldBooks());

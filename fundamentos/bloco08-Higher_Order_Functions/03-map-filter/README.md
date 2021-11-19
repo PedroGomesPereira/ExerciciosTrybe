@@ -1,0 +1,1 @@
+Exercicios do dia 3 do bloco 8 de fundamentos;
