@@ -90,8 +90,7 @@ const expectedResult = [
 
 function nameAndAge() {
     const autores = books.map((autor) => ({age: `${autor.releaseYear - autor.author.birthYear}`, author: `${autor.author.name}`,}));
-    autores.sort((a, b) => a.age - b.age);
-    return autores;
+    return autores.sort((a, b) => a.age - b.age);
 }
 
 console.log(nameAndAge());
