@@ -1,3 +1,5 @@
-Todos os exercicios da trybe
+#Todos os exercicios da trybe
 
-#modulos
+##modulos
+-Fundamentos
+-Front-End
