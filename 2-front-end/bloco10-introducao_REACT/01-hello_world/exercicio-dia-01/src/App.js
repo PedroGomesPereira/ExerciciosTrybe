@@ -1,17 +1,18 @@
-import react from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Content from './Content';
 
-const compromisos = ['estudar', 'exercitar', 'jogar com amigos', 'descansar']
+//const compromisos = ['estudar', 'exercitar', 'jogar com amigos', 'descansar']
 
-const Task = (value) => {
-  return (
-    <li>{value}</li>
-  );
-}
+// const Task = (value) => {
+//   return (
+//     <li>{value}</li>
+//   );
+// }
 
 function App() {
-  return compromisos.map((item) => Task(item));
+  // return compromisos.map((item) => Task(item));
+  return (<Header />, <Content />)
 }
 
 export default App;
